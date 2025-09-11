@@ -22,8 +22,8 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   formGroup: {
-    marginTop: 44,
-    rowGap: 10,
+    marginTop: 20,
+    rowGap: 8,
   },
   placeholderText: {
     fontSize: 18,
