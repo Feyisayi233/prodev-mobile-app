@@ -1,16 +1,20 @@
 import { styles } from "@/styles";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
+import { useRouter } from "expo-router";
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
+  const router = useRouter();
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
         {/* Top Navigation */}
         <View style={styles.navGroup}>
-          <Ionicons name="arrow-back" size={25} />
-          <Image source={require("@/assets/images/logo.png")} />
+          <TouchableOpacity onPress={() => router.push("/")}>
+            <Ionicons name="arrow-back" size={25} />
+          </TouchableOpacity>
+          <Image source={require("@/assets/images/logo-green.png")} />
         </View>
 
         {/* Title */}
