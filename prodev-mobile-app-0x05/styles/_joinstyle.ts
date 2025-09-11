@@ -6,8 +6,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    marginTop: 22,
-    marginBottom: 30,
+    marginTop: 20,
+    marginBottom: 10,
   },
   largeText: {
     fontWeight: "700",
@@ -19,17 +19,17 @@ const styles = StyleSheet.create({
     fontWeight: "400",
     fontSize: 12,
     color: "#7E7B7B",
-    marginBottom: 20,
+    marginBottom: 10,
   },
   formGroup: {
-    marginTop: 20,
-    rowGap: 8,
+    marginTop: 10,
+    rowGap: 4,
   },
   placeholderText: {
     fontSize: 18,
     fontWeight: "400",
     color: "#7B7B7B",
-    marginBottom: 7,
+    marginBottom: 0,
   },
   inputField: {
     borderWidth: 2,
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   forgotPasswordText: {
     textAlign: "right",
     color: "#34967C",
-    marginTop: 9,
+    marginTop: 5,
   },
   button: {
     backgroundColor: "#34967C",
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center",
-    marginTop: 25,
+    marginTop: 10,
   },
   buttonText: {
     color: "white",
@@ -71,8 +71,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     columnGap: 10,
-    marginBottom: 25,
-    marginTop: 29,
+    marginBottom: 2,
+    marginTop: 20,
   },
   divider: {
     borderWidth: 1,
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   },
   socialMediaButtonGroup: {
     rowGap: 15,
-    marginTop: 15,
+    marginTop: 10,
   },
   socialMediaButton: {
     height: 53,
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     columnGap: 10,
     borderWidth: 1,
     backgroundColor: "#fff",
-    marginBottom: 10,
+    marginBottom: 5,
   },
   socialMediaButtonText: {
     fontSize: 18,
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
-    marginTop: 30,
+    marginTop: 20,
   },
   subText: {
     fontWeight: "400",

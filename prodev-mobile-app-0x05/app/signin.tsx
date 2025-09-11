@@ -89,7 +89,9 @@ export default function Index() {
         {/* Footer */}
         <View style={styles.subTextGroup}>
           <Text style={styles.subText}>Don't have an account? </Text>
-          <Text style={styles.subTextJoin}>Join now</Text>
+          <Text style={styles.subTextJoin} onPress={() => router.push("/join")}>
+            Join now
+          </Text>
         </View>
       </SafeAreaView>
     </SafeAreaProvider>
