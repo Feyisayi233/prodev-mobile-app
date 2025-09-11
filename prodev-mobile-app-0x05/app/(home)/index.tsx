@@ -36,9 +36,9 @@ const Home = () => {
           <View style={styles.filterGroup}>
             {FILTERS.map((filter: string, index: number) => (
               <View style={styles.filterContainer} key={index}>
-                                <Image
-                                  style={{ flex: 1 }}
-                                  source={require("@/assets/images/hero-icon.png")}
+                <Image
+                  style={{ flex: 1 }}
+                  source={require("@/assets/images/hero-icon.png")}
                   resizeMode="contain"
                 />
                 <Text>{filter}</Text>
